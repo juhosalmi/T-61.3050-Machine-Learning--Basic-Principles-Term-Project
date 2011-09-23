@@ -1,0 +1,33 @@
+\select@language {swedish}
+\select@language {english}
+\select@language {finnish}
+\select@language {english}
+\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{5}
+\contentsline {section}{\numberline {1}Johdanto}{6}
+\contentsline {subsection}{\numberline {1.1}T\IeC {\"a}m\IeC {\"a}n dokumentin tausta}{6}
+\contentsline {subsection}{\numberline {1.2}Johdantoluku}{6}
+\contentsline {section}{\numberline {2}Kandidaatinty\IeC {\"o}n rakenne- ja muotoseikat}{7}
+\contentsline {subsection}{\numberline {2.1}TKK:n kandidaattity\IeC {\"o}ryhm\IeC {\"a}n ohjeistus}{7}
+\contentsline {subsection}{\numberline {2.2}TIK.kand: kommentteja rakenne- ja muotoseikoista}{8}
+\contentsline {section}{\numberline {3}Esimerkkej\IeC {\"a} \textlatin {\LaTeX }{}in k\IeC {\"a}yt\IeC {\"o}st\IeC {\"a}}{9}
+\contentsline {subsection}{\numberline {3.1}\textlatin {\LaTeX }{}in asennus ja taustaa}{9}
+\contentsline {subsubsection}{\numberline {3.1.1}L\IeC {\"a}hdetiedostosta PDF:ksi}{9}
+\contentsline {subsubsection}{\numberline {3.1.2}Ongelmien ratkaisija: \textlatin {\LaTeX }{} checker}{10}
+\contentsline {subsubsection}{\numberline {3.1.3}``\IeC {\"A}\IeC {\"a}kk\IeC {\"o}set eiv\IeC {\"a}t ole en\IeC {\"a}\IeC {\"a} ongelma''}{10}
+\contentsline {subsubsection}{\numberline {3.1.4}Tavutus ei toimi?}{10}
+\contentsline {subsubsection}{\numberline {3.1.5}Oikoluku}{11}
+\contentsline {subsubsection}{\numberline {3.1.6}Hienos\IeC {\"a}\IeC {\"a}t\IeC {\"o}}{11}
+\contentsline {subsubsection}{\numberline {3.1.7}Er\IeC {\"a}s vaihtoehto Win7-koneella: MiKTeX ja LEd}{11}
+\contentsline {subsection}{\numberline {3.2}Perusteksti ja muotoilut}{11}
+\contentsline {subsection}{\numberline {3.3}Luetelmat}{12}
+\contentsline {subsection}{\numberline {3.4}Kuvat ja taulukot}{13}
+\contentsline {subsection}{\numberline {3.5}Matematiikka}{14}
+\contentsline {subsection}{\numberline {3.6}Viittaukset ja l\IeC {\"a}hdeluettelo}{15}
+\contentsline {subsubsection}{\numberline {3.6.1}Ristiinviittaukset}{15}
+\contentsline {subsubsection}{\numberline {3.6.2}L\IeC {\"a}hdetiedosto}{15}
+\contentsline {subsubsection}{\numberline {3.6.3}Tekstiviite}{16}
+\contentsline {subsubsection}{\numberline {3.6.4}L\IeC {\"a}hdeluettelo}{16}
+\contentsline {section}{\numberline {4}Testi: pelkk\IeC {\"a}\IeC {\"a} teksti\IeC {\"a}}{16}
+\contentsline {section}{\numberline {5}Loppuluku}{19}
+\contentsline {section}{L\IeC {\"a}hteet}{20}
+\contentsline {section}{\numberline {A}Esimerkkiliite}{21}
