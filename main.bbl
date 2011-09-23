@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\input babelbst.tex
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Esimerkki(2011)]{esimerkki2011}
+Erkki Esimerkki.
+\newblock \emph{Architecturing Internet of Things}.
+\newblock Springer, 2011.
+
+\end{thebibliography}
