@@ -1,0 +1,19 @@
+function [ number ] = piirra_pca( lambdas, requirement)
+%PIIRRA_PCA Summary of this function goes here
+%   Detailed explanation goes here
+x = 1:length(lambdas);
+y = zeros(1,x(end));
+y(1) = lambdas(1);
+for index = 2:length(y)
+    y(index) = y(index-1) +lambdas(index);
+end
+y = y / sum(lambdas);
+
+plot(x,y);
+grid on;
+xlabel('Number of principal components');
+ylabel('Proportion of Variance');
+
+number = find(y > requirement, 1,'first');
+end
+

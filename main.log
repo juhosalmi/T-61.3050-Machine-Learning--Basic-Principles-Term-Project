@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  23 SEP 2011 14:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  21 NOV 2011 00:35
 entering extended mode
  %&-line parsing enabled.
 **main
@@ -440,23 +440,42 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \NC@list=\toks23
 \extratabsurround=\skip54
 \backup@length=\skip55
-) (./main.aux)
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+LaTeX Info: Redefining \cite on input line 437.
+) (./main.aux
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+? 
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+ (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count106
 \scratchdimen=\dimen130
@@ -469,48 +488,137 @@ LaTeX Font Info:    ... okay on input line 59.
 \MPnumerator=\count110
 \everyMPtoPDFconversion=\toks25
 ) (./makroja.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./luku_sisalto.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 19.
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)) [1
+)
+LaTeX Font Info:    Try loading font information for T1+aett on input line 19.
+
+(/usr/share/texmf-texlive/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+) [1
+
+]
+<hopfig.JPG, id=12, 194.97844pt x 187.45032pt>
+File: hopfig.JPG Graphic file (type jpg)
+ <use hopfig.JPG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] <ffnn.png, id=19, 381.425pt x 441.65pt>
+File: ffnn.png Graphic file (type png)
+ <use ffnn.png> [3 <./hopfig.JPG> <./ffnn.png (PNG copy)>] <mlp.png, id=24, 160
+6.0pt x 1112.155pt>
+File: mlp.png Graphic file (type png)
+ <use mlp.png>
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 116.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 116.
+
+[4 <./mlp.png>]
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 120.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 120.
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 126.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 134.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 138.
+
+[5]
+
+LaTeX Warning: Reference `exp:hidden' on page 6 undefined on input line 175.
+
+[6]
+
+LaTeX Warning: Reference `mlp:backprop' on page 7 undefined on input line 179.
+
+[7] [8] <pov.pdf, id=45, 442.65375pt x 398.48875pt>
+File: pov.pdf Graphic file (type pdf)
+ <use pov.pdf>
+<hidden_neurons_are_useless.pdf, id=46, 421.575pt x 317.185pt>
+File: hidden_neurons_are_useless.pdf Graphic file (type pdf)
+
+<use hidden_neurons_are_useless.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9 <./pov.pdf>] <roc.pdf, id=55, 421.575pt x 317.185pt>
+File: roc.pdf Graphic file (type pdf)
+ <use roc.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: roc.pdf Graphic file (type pdf)
+<use roc.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./hidden_neurons_are_useless.pdf>] [11 <./roc.pdf>] [12]) [13
 
 ] (./main.bbl
-(./babelbst.tex (./englbst.tex))) [2
+Underfull \hbox (badness 3590) in paragraph at lines 21--26
+[]\T1/aer/m/n/12 From data to in-for-ma-tion -course slides on data com-pres-si
+on us-ing pca
+ []
 
-] (./luku_liitteet.tex) [3
 
-] (./main.aux) ) 
+Underfull \hbox (badness 7012) in paragraph at lines 43--45
+[]\T1/aer/m/n/12 Wikipedia ar-ti-cle on back-prop-a-ga-tion.  $\T1/aett/m/n/12 
+http : / / en . wikipedia . org / wiki /
+ []
+
+) [14
+
+] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3516 strings out of 494799
- 40591 string characters out of 1177749
- 96715 words of memory out of 3000000
- 6600 multiletter control sequences out of 15000+50000
- 25354 words of font info for 58 fonts, out of 3000000 for 9000
+ 3652 strings out of 494799
+ 42827 string characters out of 1177749
+ 102046 words of memory out of 3000000
+ 6714 multiletter control sequences out of 15000+50000
+ 32637 words of font info for 70 fonts, out of 3000000 for 9000
  212 hyphenation exceptions out of 8191
- 32i,6n,28p,278b,181s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb>
-Output written on main.pdf (4 pages, 84136 bytes).
+ 32i,7n,28p,661b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (15 pages, 780631 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

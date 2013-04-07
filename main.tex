@@ -27,6 +27,7 @@
 \usepackage{url}       % \url{...}
 \usepackage{hyphenat}  % tavutuksen viilaamiseen liittyvä (hyphenpenalty,...)
 \usepackage{supertabular,array}  % useampisivuinen taulukko
+\usepackage[superscript]{cite}
 
 % Koko dokumentin kattavia asetuksia:
 
@@ -100,7 +101,7 @@
 
 % Otsikko nimiölehdelle. Yleensä sama kuin seuraavana oleva \TITLE, 
 % mutta jos nimiölehdellä tarvetta "kaksiosaiselle" kaksiriviselle
-\title{<FILL TITLE>}
+\title{Applying Multilayer Perceptron to Spam Filtering}
 % 2-osainen otsikko:
 %\title{\LaTeX{}-pohja kandidaatintyölle \\[5mm] Pitkiä rivejä kokeilun vuoksi.}
 
@@ -290,7 +291,7 @@
 %  (ellet käytä Makefilea ja "make")
 
 % Viitetyylitiedosto aaltosci_t.bst; muokattu HY:n tktl-tyylistä.
-\bibliographystyle{aaltosci_t}
+\bibliographystyle{te}
 % Katso myös tämän tiedoston yläosan "preamble" ja siellä \bibpunct.
 
 % Muutetaan otsikko "Kirjallisuutta" -> "Lähteet"
@@ -306,7 +307,7 @@
 %\bibliography{thesis_sources,ietf_sources}
 
 \label{pages:refs}
-\clearpage         % erotetaan mahd. liitteet alkamaan uudelta sivulta
+%\clearpage         % erotetaan mahd. liitteet alkamaan uudelta sivulta
 
 % -------------- Liitteet / Appendices --------------------------------
 %
@@ -317,10 +318,10 @@
 % haastattelurunko, kyselypohja, ylimääräisiä kuvia, lyhyitä 
 % ohjelmakoodeja tai datatiedostoja.
 
-\appendix
-\input{luku_liitteet}
+%\appendix
+%\input{luku_liitteet}
 
-\label{pages:appendices}
+%\label{pages:appendices}
 
 % ---------------------------------------------------------------------
 

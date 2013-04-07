@@ -1,48 +1,65 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: main.aux
-The style file: aaltosci_t.bst
+The style file: plainyr.bst
 Database file #1: lahteet.bib
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--can't use both author and editor fields in esimerkki2011
-You've used 1 entry,
-            3106 wiz_defined-function locations,
-            663 strings with 5518 characters,
-and the built_in function-call counts, 329 in all, are:
-= -- 22
-> -- 10
-< -- 1
-+ -- 4
-- -- 3
-* -- 18
-:= -- 59
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 2
-chr.to.int$ -- 1
-cite$ -- 3
-duplicate$ -- 19
-empty$ -- 32
-format.name$ -- 4
-if$ -- 61
-int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 16
-num.names$ -- 4
-pop$ -- 11
+Warning--I'm ignoring hiddenunits's extra "note" field
+--line 195 of file lahteet.bib
+Warning--I didn't find a database entry for "matlab:"
+Warning--to sort, need year or key in wiki:email
+Warning--to sort, need year or key in wiki:mlp
+Warning--to sort, need year or key in wiki:pca
+Warning--to sort, need year or key in luentokalvo
+Warning--to sort, need year or key in wiki:nn
+Warning--to sort, need year or key in wiki:ffnn
+Warning--to sort, need author, editor, or key in ham2001
+Warning--to sort, need year or key in wiki:backprop
+Warning--to sort, need year or key in hongwei
+Warning--to sort, need year or key in hiddenunits
+Warning--to sort, need year or key in wiki:onlinealgorithm
+Warning--to sort, need year or key in matlab:nn
+Warning--to sort, need year or key in crsouza
+Warning--to sort, need year or key in datachallenge
+Warning--empty author and editor in ham2001
+Warning--empty publisher in ham2001
+You've used 14 entries,
+            2146 wiz_defined-function locations,
+            547 strings with 5907 characters,
+and the built_in function-call counts, 2310 in all, are:
+= -- 196
+> -- 28
+< -- 0
++ -- 14
+- -- 0
+* -- 80
+:= -- 296
+add.period$ -- 28
+call.type$ -- 14
+change.case$ -- 27
+chr.to.int$ -- 0
+cite$ -- 30
+duplicate$ -- 104
+empty$ -- 324
+format.name$ -- 0
+if$ -- 548
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 1
+newline$ -- 59
+num.names$ -- 14
+pop$ -- 152
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 14
 quote$ -- 0
-skip$ -- 12
+skip$ -- 82
 stack$ -- 0
-substring$ -- 2
-swap$ -- 2
+substring$ -- 70
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 1
-while$ -- 3
-width$ -- 0
-write$ -- 22
-(There was 1 warning)
+type$ -- 54
+warning$ -- 16
+while$ -- 14
+width$ -- 16
+write$ -- 100
+(There were 18 warnings)

@@ -1,0 +1,97 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\title{\LaTeX}
+\date{}
+\begin{document}
+  \maketitle
+
+
+  \section{Abstract}
+  
+  This report shows how MLP could be used in spam filtering context. We introduce ANN, PCA MLP, backpropagation, Gauss-Newton algorithm and its modification Levenberg-Maquardt optimization algorithm to a reader. We test MLP with data set of 10 000 email messages given on the course on Machine Learning. We show how PCA can be used to reduce the dimensions of a data set. We analyze our results and see how neural network is does not find the global optimum results for its model. MLP has a problem of reliability, which is discussed.
+  
+  \section{Introduction}
+  
+  In this paper we study how to filter spam using artificial neural network computing and how well does a neural network called multilayer perceptron perform in the task.
+
+
+By spam we mean advertisement, virus-infected and fraud e-mail messages that we don’t want. If we can filter the spam from the meaningful e-mail we can reduce the need for repetitive human work. Good spam filtering enables better human productivity. Spam filters are not perfect. Sometimes spam gets in our inboxes despite of spam filters (false negative). On the other hand our meaningful mail may be lost because of false alarms of the spam filter (false positive). (^ http://en.wikipedia.org/wiki/E-mail_filtering)
+
+
+Artificial neural networks are a bionic and connectionist approach to computing. In this paper we’ll be filtering spam with a multilayer perceptron (MLP) which is widely used for pattern recognition. Spam filtering is such a problem. We’ll look into MLP and its model parameters in detail with a mathematical approach. (^ http://en.wikipedia.org/wiki/Multilayer_perceptron)
+
+
+As a test set we have a table of boolean values (ones and zeros) of mail attributes. 448 columns represent the spam relevant attributes of the mail such as WEIRD_QUOTING (weird repeated double-quotation marks), CHARSET_FARAWAY (character set indicates a foreign language) or EMAIL_ROT13 (body contains a ROT13-encoded email address). The 10 000 rows represent 10 000 mails with different attributes. We have the information whether a mail is spam or not which we use to train our neural network.
+
+
+We’ll see that MLP works as a spam filter but does not in itself reach a commercial level.
+  
+  
+  \section{Methods}
+  \subsection{Principal Component Analysis (PCA)
+  Principal component analysis (PCA) (^wikipedia.org/wiki/PCA) is a method used for analysing input data. This method can be also used to decrease the dimensionality of the data, which reduces the amount of computation needed in later processes. This method adds more error to learning algorithms as the data is represented in smaller space, which is a major drawback.
+
+
+Process of decreasing the dimensions for a given data consists of 5 stages. Data is comprised of N samples of d-dimension vectors. We aim to have $p$ dimensions in the end of the process.
+
+
+1. Data vectors are centered around the origin. This step is needed for calculating covariance matrix correctly.
+
+
+2. Covariance between the attributes is calculated into a covariance matrix $C$ from the data.
+
+
+3. Eigen values and corresponding eigen vectors of the matrix is calculated. It has been proven (^ kurssin luentokalvo) that eigen vector created from the largest eigen value is a vector showing the direction of largest variance inside the data set.
+
+
+4. Create a matrix $W$ from the eigen values corresponding to the $p$ largest eigen values.
+
+
+5. Project each data point used in the system to vector space $p$ by calculating \[ z^i = W^Ty^i \] Where $z^i$ is the new calulated point.
+
+
+As proportion of variance increases when number of dimensions increase, there is an trade off of choosing a small $p$ and a high additional error. Proportion of variance can be calculated using the formula
+
+
+\[ PoV(k) = \sum_{i=1}^p\lambda_i/\sum_{i=1}^d\lambda_i \]
+
+
+Appropriate $p$ is selected depending on the shape of PoV function and other requirements on accuracy.
+  
+  \subsection{Artificial Neural Network (ANN)}
+  An artificial neural network (ANN) consists of an interconnected group of artificial neurons, and it processes information using a connectionist approach to computation (^ http://en.wikipedia.org/wiki/Neural_network).
+*
+
+
+Hopfield neural network
+
+
+In the picture we see a simple neural network. The circles are the neurons and the lines are the connections between the neurons. Neurons have one or more inputs and only one output which, however, can be connected to multiple neurons. A neuron computes the information from its inputs into an output. (^ http://en.wikipedia.org/wiki/Neural_network)
+  
+  \subsection{
+  \section{Experiments}
+  
+  \section{Results}
+  
+  \section{Conclusions}
+  
+  
+  
+  
+  \begin{thebibliography}{9}
+
+
+\bibitem{lamport94}
+  Leslie Lamport,
+  \emph{\LaTeX: A Document Preparation System}.
+  Addison Wesley, Massachusetts,
+  2nd Edition,
+  1994.
+  
+  \bibitem{
+
+
+\end{thebibliography}
+  
+\end{document}

@@ -1,16 +1,70 @@
-\begin{thebibliography}{1}
-\input babelbst.tex
-\newcommand{\Capitalize}[1]{\uppercase{#1}}
-\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{10}
 
-\bibitem[Esimerkki(2011)]{esimerkki2011}
-Erkki Esimerkki.
-\newblock \emph{Architecturing Internet of Things}.
-\newblock Springer, 2011.
+\bibitem{hongwei}
+Article on l-m for ffnn.
+\newblock Hongwei Liu: On the Levenber-Marquardt Training Method for
+  Feed-Forward Neural Networks, 2010 Sixth International Conference on Natural
+  Computation (ICNC 2010), Beijing Wuzi University.
+
+\bibitem{crsouza}
+Article on neural network learning by the levenberg-marquardt.
+\newblock
+  \url{http://crsouza.blogspot.com/2009/11/neural-network-learning-by-levenber%
+g_18.html}.
+
+\bibitem{hiddenunits}
+Article on the number of hidden neurons.
+\newblock
+  \url{http://www.faqs.org/faqs/ai-faq/neural-nets/part3/section-9.html}.
+
+\bibitem{luentokalvo}
+From data to information -course slides on data compression using pca in
+  finnish.
+\newblock
+  \url{https://noppa.aalto.fi/noppa/kurssi/t-61.2010/luennot/T-61_2010_luku_4_%
+_kalvot_1_a4.beamer.pdf}.
+
+\bibitem{matlab:nn}
+Matlab’s neural network toolbox web page.
+\newblock \url{http://www.mathworks.se/products/neural-network/index.html}.
+
+\bibitem{ham2001}
+{\em Principles of Neurocomputing for Science and Engineering}.
+\newblock 2001.
+
+\bibitem{datachallenge}
+Results of datachallenge competition held on course machine learning: Basic
+  principles.
+\newblock
+  \url{https://noppa.aalto.fi/noppa/kurssi/t-61.3050/tulokset/T-61_3050_result%
+s.html}.
+
+\bibitem{wiki:backprop}
+Wikipedia article on backpropagation.
+\newblock \url{http://en.wikipedia.org/wiki/Backpropagation}.
+
+\bibitem{wiki:email}
+Wikipedia article on e-mail filtering.
+\newblock \url{http://en.wikipedia.org/wiki/Email_filtering}.
+
+\bibitem{wiki:ffnn}
+Wikipedia article on feedforward neural networks.
+\newblock \url{http://en.wikipedia.org/wiki/Feedforward_neural_network}.
+
+\bibitem{wiki:mlp}
+Wikipedia article on multilayer perceptrons.
+\newblock \url{http://en.wikipedia.org/wiki/Multilayer_perceptron}.
+
+\bibitem{wiki:nn}
+Wikipedia article on neural networks.
+\newblock \url{http://en.wikipedia.org/wiki/Neural_network}.
+
+\bibitem{wiki:onlinealgorithm}
+Wikipedia article on online algorithms.
+\newblock \url{http://en.wikipedia.org/wiki/Online_algorithm}.
+
+\bibitem{wiki:pca}
+Wikipedia article on principal component analysis.
+\newblock \url{http://en.wikipedia.org/wiki/Principal_component_analysis}.
 
 \end{thebibliography}
